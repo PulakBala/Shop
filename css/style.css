@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.header{
+    width: 100%;
+    height:60px;
+    background:cyan;
+    text-align: center;
+    
+}
+.manu-bar ul{
+    display: inline-flex;
+    list-style-type:none;
+    
+}
+.manu-bar li{
+    width: 120px;
+    height:150px;
+    margin-top: 16px;
+    font-size: 19px;
+
+}
+.manu-bar .shop li{
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 500px;
+}
+.manu-bar ul li:hover{
+    color: red;
+}
+/* end header */
+.container .name{
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.name .sign{
+    margin-top: 60px;
+}
+.sign button{
+    font-size: 16px;
+    padding: 10px 25px;
+    background-color:cyan;
+    border: none;
+    border-radius: 10px;
+}
+.sign a{
+    margin-left: 30px;
+    color: rgb(10, 141, 141);
+    font-size: 16px;
+    text-decoration: none;
+}
+.container{
+    display:inline-flex;
+}
+.picture img{
+    margin-top: 40px;
+    margin-left: 190px;
+}
+.footer{ 
+    width: 100%;
+    height:60px;
+    margin-top: 148px;
+    background-color: cyan;
+    display: inline-flex;
+    justify-content:space-evenly;
+
+}
+.footer p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.footer h3{
+    margin-top: 15px;
+}
+
